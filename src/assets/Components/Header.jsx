@@ -3,6 +3,7 @@ import { BsSearch } from "react-icons/bs";
 import { BsFillPersonFill } from "react-icons/bs";
 import { GiShoppingBag } from "react-icons/gi";
 
+
 const Header = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -31,7 +32,7 @@ const Header = () => {
     <nav className= {`w-full bg-transparent fixed border-b-2 border-gray-300 ${visible ? 'top-0' : '-top-40'}`}>
         <div className='bg-transparent md:px-10 flex py-10'>
             <div>
-                <span className='font-bold text-white'>Name</span>
+                <span className='font-bold text-white'><img src="" alt="Logo" /></span>
             </div>
             <div className='flex justify-center ml-80 space-x-72'>
             <ul className='flex pl-9 md:pl-0'>

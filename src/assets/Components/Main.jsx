@@ -1,5 +1,5 @@
 import React from 'react'
-import assignmentImage from '/src/resources/assignment1.jpeg';
+import assignmentImage from '/src/resources/assignment3.jpeg';
 
 const Main = () => {
   return (
